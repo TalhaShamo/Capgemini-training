@@ -2,7 +2,7 @@
 
 using System;
 using System.Security.Cryptography.X509Certificates;
-namespace Practise_Q2
+namespace Practice_Q2
 {
     class Conversion
     {
