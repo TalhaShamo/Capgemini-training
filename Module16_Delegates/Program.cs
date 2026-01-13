@@ -47,7 +47,7 @@ namespace Module16_Delegates
 
             if(OnComplete != null)
             {
-                OnComplete(file); //This is the line that rus the methods in AlertSystem class
+                OnComplete(file); //This is the line that runs the methods in AlertSystem class
             }
         }
     }
