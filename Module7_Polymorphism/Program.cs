@@ -38,7 +38,7 @@ class Warrior : Character
     //We write override on the Child's method. It means "I am replacing the parent's version."
     public override void Attack(Character target)
     {
-        this.strength *= 1.5f;
+        this.strength *= 1.5f; 
         Console.WriteLine("Warriors have 50% attack buff by default");
         target.health -= this.strength;
         Console.WriteLine($"{this.name} has hit {target.name} for {this.strength} damage. {target.name} has {target.health} hp left!");

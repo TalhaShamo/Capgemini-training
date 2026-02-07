@@ -14,7 +14,7 @@
 //     c) The first parameter must utilize the this keyword to specify which type is being extended.
 
 using System;
-namespace Module30_ExtensionMethods
+namespace Module30_ExtensionMethods4
 {
     // RULE 1: The container class must be 'static'
     public static class MoneyExtension
